@@ -1,0 +1,253 @@
+Subject,CommitId,Author,Date,Log message
+AffectiveTweets,8adc5a0,felipebravom,2017-09-22 15:26:57 +1200,Refactored the Embedding handler
+CoreNLP,00d4c2a11,Jason Bolton,2019-07-12 16:41:16 -0700,refactor part-of-speech benchmarking
+CoreNLP,01ae51c41,Christopher Manning,2017-05-28 17:42:21 -0700,"Print out sections and some refactoring. Print the sections, but maybe this should be changed a bit so the sentences are a simple list, not a list of maps. Do a little refactoring out of repeated code blocks."
+CoreNLP,13327445f,Jon Gauthier,2014-08-27 12:07:13 -0700,Refactor AnCoraProcessor to use MulticoreWrapper
+CoreNLP,18bef5178,Jason Bolton,2016-09-24 01:39:50 -0700,new coreference refactor
+CoreNLP,1d5474b72,J38,2019-09-14 15:09:07 -0700,"add number range handling, refactor some"
+CoreNLP,25a6414bc,John Bauer,2014-10-24 13:42:46 -0700,Update the commented out readObject to reflect the refactored srparser
+CoreNLP,29e8c720f,Sebastian Schuster,2015-03-20 21:36:06 -0700,Refactored UniversalEnglishGrammaticalStructureTest
+CoreNLP,325468909,Mengqiu Wang,2014-06-10 17:09:08 -0700,"merged remote branch crf_stochastic_fix, refactored CRFClassifier"
+CoreNLP,34bd3847f,John Bauer,2019-11-30 21:58:41 -0800,"Refactor NodeAttributes so that we can do some error checking. Also, this will allow us to combine root with other attributes. See issue https://github.com/stanfordnlp/CoreNLP/issues/552"
+CoreNLP,45c948b54,John Bauer,2019-11-27 18:51:01 -0800,Simplify and use the refactored text split
+CoreNLP,4816ccd03,Jason Bolton,2018-07-15 17:25:11 -0700,refactor test
+CoreNLP,616d266aa,desmorto,2017-10-24 20:58:02 -0700,(refactor) some opportunities to use Multi-Catch
+CoreNLP,664a179e8,John Bauer,2014-10-15 18:37:51 -0700,Begin refactoring training method in ShiftReduceParser
+CoreNLP,6cb32ee6a,J38,2019-09-04 22:36:48 -0700,"begin refactor process, remove german and spanish from old test"
+CoreNLP,7299f6ab5,John Bauer,2014-06-10 18:54:25 -0700,Large scale refactoring - make train() a member function
+CoreNLP,75285cd46,J38,2019-09-04 22:36:47 -0700,refactored german ner benchmark
+CoreNLP,770fac204,John Bauer,2014-06-10 18:51:22 -0700,Code refactoring
+CoreNLP,8b54f5b96,ameya,2017-07-02 11:23:50 -0700,"Refactoring 2 instances from Function<V,Double> to ToDoubleFunction<V>"
+CoreNLP,907f380bf,desmorto,2017-11-20 16:24:55 -0800,(refactor) some opportunities to use Anonymous inner Classes
+CoreNLP,95e5211f2,J38,2019-10-17 15:40:33 -0700,refactor to have NERCombinerAnnotator directly alter tokenization to an NER-specific tokenization
+CoreNLP,994c60f09,Spence Green,2014-06-10 18:54:42 -0700,Refactoring for speed
+CoreNLP,a01361cff,John Bauer,2014-10-24 13:42:13 -0700,Refactor another method
+CoreNLP,a0fb86fa1,desmorto,2017-07-27 20:59:26 -0700,(refactor) some opportunities to use diamond operator
+CoreNLP,a1f844ded,John Bauer,2019-09-09 20:21:30 -0700,"Update a comment, minor rearrangement to look like the parent class (need to refactor)"
+CoreNLP,a486eccd8,Jason Bolton,2016-10-23 21:27:31 -0700,coref refactor
+CoreNLP,b11991d39,Kellen Sunderland,2017-01-14 15:31:49 -0800,"Fix multithreading issue with ChineseStringUtils, small refactor"
+CoreNLP,b2dcbd32a,Sebastian Schuster,2015-03-20 21:36:21 -0700,refactored collapsed dependencies and updated them to the new standard
+CoreNLP,b3b0effcd,John Bauer,2014-08-11 16:42:17 -0700,Make the code easy to refactor...
+CoreNLP,b5cdaee3e,Jason Bolton,2017-09-21 19:06:59 -0700,refactor UniversalDependenciesConverter changes
+CoreNLP,b81597f9c,desmorto,2017-11-02 12:58:04 -0700,(refactor) some opportunities to use Switch String
+CoreNLP,cd828aee8,John Bauer,2014-06-10 18:52:46 -0700,Begin refactoring the training program
+CoreNLP,d54cbc4b4,Jason Bolton,2016-12-20 23:20:58 -0800,refactor KBP benchmark
+CoreNLP,de9a1dbf5,Spence Green,2014-07-02 21:45:55 -0700,"Refactor FlatPhraseTable for faster query, lower memory usage; support multiple phrase tables and reordering models"
+CoreNLP,fa5d8384d,Gabor Angeli,2016-02-29 00:40:47 -0800,Refactor the KBP relation extractor pipeline a bit
+CoreNLP,fd3e9fef3,Erich Schubert,2019-09-20 10:49:37 -0700,"Various code optimizations: refactor some methods, only run hash lookups once, etc"
+DataCleaner,0fc710340,Anand Swarup,2012-08-17 10:48:15 +0000,Refactor some code for better performance
+DataCleaner,1477597e9,Vaibhav Sehgal,2014-08-11 16:37:57 +0530,Refactor and clean up code.
+DataCleaner,174603960,hdrexler,2015-09-02 09:01:58 +0200,Minor refactoring
+DataCleaner,2d4024408,k.houzvicka,2016-03-16 11:35:33 +0100,Refactor for all annotation in transformer class
+DataCleaner,34ee02495,hdrexler,2015-09-02 17:01:47 +0200,Refactored initialization of String list
+DataCleaner,35c6a5af5,unknown,2015-09-07 08:49:54 +0200,Some refactoring of DataHub connection code. Needs more work.
+DataCleaner,3b0909435,Kasper Sørensen,2011-09-19 14:53:32 +0000,Ticket #688: Fixed refactoring in DataCleaner-core
+DataCleaner,3f403a73f,Kasper Sørensen,2015-06-16 14:56:01 +0200,"Made ""create table"" functionality not apply to CSV datastores. Refactored SchemaMouseListener to avoid too long method."
+DataCleaner,525988f21,Reinier de Jong,2015-08-11 12:57:15 +0200,"Refactored the getSchema, getTable and getColumn methods into one getSchemas method which now returns the complete schema, table and column hierarchy as one json"
+DataCleaner,596e22db8,Kasper Sørensen,2015-09-15 10:37:28 +0200,Refactor of RowProcessingPublisher and related classes
+DataCleaner,59f39c7b9,Kasper Sørensen,2019-03-24 20:51:31 -0700,"Refactored components to have a ""Training analyzer"" per algorithm."
+DataCleaner,5a4aa9026,hdrexler,2015-09-30 15:49:26 +0200,Refactor CasHttpMonitorClient
+DataCleaner,6c1f52de1,Kasper Sørensen,2014-05-19 10:34:08 +0200,Refactored result-modification code: Moved from controller layer to DAO layer.
+DataCleaner,7387baf67,tomaszguzialek,2015-05-11 11:09:15 +0200,Refactoring the test to remove the test file even if the test fails (tearDown method).
+DataCleaner,80b2fcbb5,Reinier de Jong,2015-08-31 09:00:17 +0200,Refactored
+DataCleaner,84a470b5b,Jakub Neubauer,2015-09-25 08:43:38 +0200,Using default value on client side (RemoteTransformer). Also refactored property descriptors to avoid code duplicates
+DataCleaner,949711354,Kasper Sørensen,2015-08-24 20:51:31 +0200,Various refactorings to Spark module
+DataCleaner,b907e804a,Kasper Sørensen,2015-05-04 09:17:56 +0200,Minor refactor to have removeUnnecesaryEdges incapsulate the for-loop
+DataCleaner,f84d7cf6d,Kasper Sørensen,2015-09-15 11:43:09 +0200,Handled PR review feedback. Refactor of runRowProcessing(..)
+deeplearning4j,190575196c,shugeo,2019-12-03 14:06:38 +0200,Refactored pad and mirror_pad ops to conform with TF. (#100)
+deeplearning4j,3c0c59ab88,shugeo,2019-10-09 22:09:33 +0300,Refactored fake_quant_with_min_max_vars op.
+deeplearning4j,59a6e4e3ae,Robert Altena,2019-08-28 12:03:23 +0900,INDArray refactoring (#170)
+deeplearning4j,59cba587f4,Robert Altena,2019-08-15 13:50:52 +0900,Nd4j refactoring (#112)
+deeplearning4j,6cf3a8fa9c,shugeo,2019-10-07 17:51:07 +0300,Refactored cpu implementatio and added cuda aproach.
+deeplearning4j,83d958d536,Robert Altena,2019-09-18 04:56:29 +0900,Sparse matrix refactoring. (#8238)
+deeplearning4j,aa4af2c36d,Robert Altena,2019-07-29 21:20:16 +0900,refactor duplicate code from pad methods. (#86)
+deeplearning4j,c3f755d975,shugeo,2019-10-10 18:02:49 +0300,Refactored helpers both for cuda and cpu platforms.
+deeplearning4j,dcc72e23b2,Samuel Audet,2019-07-22 20:34:08 +0900,Refactor NativeOps.h to export C functions
+deeplearning4j,e7730eded4,Robert Altena,2019-12-06 12:25:41 +0900,delete unused and refactor. (#8262)
+deeplearning4j,f3e42173ef,shugeo,2019-10-02 16:51:09 +0300,Refactored buffer copying to avoid wrong usage of buffers.
+deeplearning4j,f8615e0ef0,Robert Altena,2019-08-07 19:31:48 +0900,nd4j refactoring. (#103)
+DigitRecognizer,0000036,klevis.ramo,2017-11-29 22:41:16 +0100,refactor
+DigitRecognizer,c0512c1,klevis.ramo,2017-11-29 21:59:47 +0100,refactor
+elasticsearch,057cdffed54,Dimitris Athanasiou,2018-05-01 09:50:32 +0100,[ML] Refactor DataStreamDiagnostics to use array (#30129)
+elasticsearch,0a4e582404d,kimchy,2011-06-03 04:32:27 +0300,"Query Parser Module Refactor, closes #994."
+elasticsearch,0d6cbf92e59,David Kyle,2019-05-31 15:01:12 +0100,[ML Data Frame] Refactor stop logic (#42644)
+elasticsearch,22eea8aba0b,uboness,2014-11-22 05:31:03 +0100,[Cleanup] - Refactored security filter
+elasticsearch,28d6b505ed9,Dimitrios Athanasiou,2017-03-24 10:51:25 +0000,[ML] Minor refactoring to improve code readability
+elasticsearch,3a0d1841d9d,javanna,2015-10-05 14:50:15 +0200,Query refactoring: simplify IndexQueryParserService parse methods and prepare the field for #13859
+elasticsearch,3ed848a495a,kimchy,2011-02-15 07:00:24 +0200,"ThreadPool: Refactor into several pools, with configurable types per pool, closes #687."
+elasticsearch,46ff97af5e0,kimchy,2010-02-23 21:30:10 +0200,"refactor json handling to use byte[] instead of string for better performance, storage, and memory consumption (apply to search)"
+elasticsearch,4acb50fd1c2,Benjamin Trent,2019-02-19 08:46:46 -0600,ML refactor DatafeedsConfig(Update) so defaults are not populated in queries or aggs (#38822)
+elasticsearch,5d095e2173b,Costin Leau,2019-12-06 18:09:56 +0200,Refactor usage of NamedExpression (#49693)
+elasticsearch,70615dd38dd,Benjamin Trent,2019-03-20 11:05:22 -0500,[ML] Refactor GET Transforms API (#40015)
+elasticsearch,83ef1553bfb,Julie Tibshirani,2019-10-30 15:20:49 -0700,Refactor unit tests for vector functions. (#48662)
+elasticsearch,92ac431c242,Benjamin Trent,2019-03-08 22:17:33 -0600,[ML] refactoring lazy query and agg parsing (#39776)
+elasticsearch,97703bf0da3,Dimitris Athanasiou,2018-03-21 14:54:55 +0000,[ML] Refactor method to process model size stats (elastic/x-pack-elasticsearch#4175)
+elasticsearch,9e891de777c,Colin Goodheart-Smithe,2017-11-24 17:22:51 +0000,refactors code to allow better testing
+elasticsearch,a4da1c9b461,Przemko Robakowski,2020-01-21 21:43:50 +0100,Refactor ForEachProcessor to use iteration instead of recursion (#51104)
+elasticsearch,a84946c308e,Benjamin Trent,2019-04-04 07:40:47 -0500,"[ML] refactoring start task a bit, removing unused code (#40798)"
+elasticsearch,ad87f332a01,Hendrik Muhs,2019-05-03 13:36:59 +0200,[ML-DataFrame] refactor pivot to only take the pivot config (#41763)
+elasticsearch,c567ec4a0fe,Albert Zaharovits,2018-08-26 14:09:23 +0300,Refactor CachingUsernamePassword realm (#32646)
+elasticsearch,ce58723cc5b,kimchy,2010-02-21 10:28:11 +0200,"refactor mapping names into a separate class (Names), create a NamedAnalyzer wrapper which allows to know the logical name the analyzer was created under"
+elasticsearch,cebdae5707a,kimchy,2011-01-31 16:08:06 +0200,"refactor script execution handling to improve performance, also introduce specific search script executor"
+elasticsearch,ddd3ed4f224,Jason Tedor,2017-11-09 15:17:11 -0500,Additional engine refactoring
+elasticsearch,eb70849a21e,Josemy Duarte,2019-11-11 19:29:13 +0100,Refactor and DRY up Kahan Sum algorithm (#48558)
+elasticsearch,eed557742f5,Ali Beyad,2016-02-10 14:27:37 -0500,Refactors building query specific objects from the term suggestion builder and merges changes between the suggestion builders to context object implementations.
+elki,0b675696f,Erich Schubert,2015-07-24 23:39:17 +0200,Refactor IntegerDataStore -> DBIDs[] transformation for clustering.
+elki,15d28c899,Erich Schubert,2018-10-14 18:23:30 +0200,"More refactoring of k-means, to reduce redundancies."
+elki,1684e7398,Erich Schubert,2013-03-13 12:59:41 +0000,Refactor M-Trees to use settings classes.
+elki,239bbcd71,Erich Schubert,2013-03-05 18:28:39 +0000,"Refactor LRU Cache into a page file factory. Also make the alternative OnDiskArrayPageFile accessible via a separate factory (NIO based, so supposedly faster)."
+elki,2b6afd6bf,Erich Schubert,2014-06-11 11:18:08 +0000,"Refactoring of NumberVectorDistanceFunction; a bit clumsy (AFAICT due to java limitations wrt. Contravariance!); add HammingDistance and JaccardDistance that allow Bit vectors, numerical vectors, and non-numerical feature vectors."
+elki,2c706ffa1,Remigius Wojdanowski,2009-07-24 20:27:09 +0000,"Some more refactoring. Using one-dimensional visualizations should be possible now, but wasn't tested."
+elki,30af0d3ae,Erich Schubert,2016-11-08 15:17:25 +0100,Refactor cluster model classes for prototypes.
+elki,3ba90d540,Erich Schubert,2014-06-30 15:21:16 +0000,Cleanup and refactor classification code.
+elki,40ff48a9b,Erich Schubert,2009-05-20 15:59:33 +0000,Refactor mahalanobis-distance (on raw double vectors) into MathUtil class.
+elki,458ba6992,Alexander Koos,2014-12-14 16:50:10 +0000,"BA-Thesis: Refactoring DataModell, splitted Gaussian-Cases"
+elki,5bfafafd0,Elke Achtert,2010-04-08 08:13:12 +0000,Refactoring SubspaceAndMeanModel
+elki,5c3dcd350,Elke Achtert,2006-01-18 08:36:30 +0000,refactoring feature extraction for images
+elki,5dd0745b5,Erich Schubert,2019-12-07 13:11:14 +0100,Refactor KMeans++ code
+elki,6dd54317a,Erich Schubert,2009-03-31 11:29:53 +0000,"Huge Pair refactoring. Rename 'SimplePair' to just 'Pair'. Rename 'ComparablePair' to 'CPair'. Re-introduction of QueryResult as DistanceResultPair derived from CPair with readable accessors ""getDistance"" and ""getID"". Java performance studies have shown no cost in making Pair non-final, hotspot-VMs will optimize that very well. Since we can get 'getDistance' and 'getID' for free, we're gonna use them to increase readability of the code."
+elki,6e3ee2bad,Arthur Zimek,2006-03-01 18:23:51 +0000,introduced result.clustering - refactoring
+elki,7b1151eb9cc9b989a69200f0fe22ac4f8b4af42d,Erich Schubert,2020-02-05 13:18:12 +0100,Replace TopBoundedHeap with a single method in Heap.
+elki,7cf486c3b,Erich Schubert,2014-05-23 16:27:32 +0000,"Large refactoring of EM code, to make it easier to add new models."
+elki,84eff0d84,Erich Schubert,2013-07-30 09:02:19 +0000,"Large refactoring of distribution estimators: moved to own package, instead of inner classes. Makes the available algorithms more visible."
+elki,875ad4c47,Erich Schubert,2013-10-30 17:21:58 +0000,Refactor & cleanup.
+elki,9cf2b4782,Erich Schubert,2011-07-11 16:08:00 +0000,R*-Tree refactoring: InsertStrategy
+elki,a0b8c4fe5,ARandomTree,2019-11-18 17:35:42 +0100,"refactoring in all classes, added function in entropy to fill the long arrays"
+elki,ad47ce68b,Erich Schubert,2008-08-14 12:46:48 +0000,"Commit the new PCA refactoring. We now have separate classes for a PCA Runner and a PCA Result (since many algorithms need to set parameters for the PCA runner that apply to every run). Global PCA is no longer needed - all PCA Runners can process whole databases, but the PCAFilteredRunner is needed if you want to determine a subspace dimensionality. PCARunner doesn't use a filter or determine a subspace."
+elki,afca80064,Erich Schubert,2011-09-30 16:37:00 +0000,"Refactor and restructure RTree strategies. Merge strategies from new implementation, which use a low-level API that should be slightly faster (less memory intensive)."
+elki,b07676eec,Erich Schubert,2013-03-04 19:28:33 +0000,Refactor M-Trees to allow parameterization of split strategy.
+elki,b3a1eb3c2,Elke Achtert,2006-09-06 08:15:00 +0000,refactoring Hough algorithm
+elki,b650217e9,Erich Schubert,2010-05-28 19:29:24 +0000,"Refactor Matrix and Vector code. Should help a bit with memory usage and eventually performance. And convenience, since it adds some additional typing WRT matrix and vector mulitplications."
+elki,b67e95110,Erich Schubert,2013-11-20 09:50:04 +0000,Refactor EM clustering.
+elki,ba0a5df0d,Erich Schubert,2013-09-02 11:05:17 +0000,"Refactoring: merge DistributionWithRandom into Distribution. Either, the quantile function cannot be implemented already, or we can just use quantile(random) to obtain a uniform value."
+elki,bdd41e486,Elke Achtert,2006-02-03 16:41:41 +0000,refactoring feature extraction
+elki,bec2abe39,Erich Schubert,2014-01-14 12:45:10 +0000,"Remove support for binary, integer and float distances. This is a first step towards moving away from having objects for distances ever. Unfortunately, some algorithms (HiSC, DiSH, ERiC) still rely on this; this will need some careful refactoring of OPTICS, most likely."
+elki,c572cc698,Erich Schubert,2013-07-24 11:58:04 +0000,"Refactor projections code, to allow faster implementations than using a matrix multiplication."
+elki,cf6f8e232,Julian Erhard,2016-09-19 19:41:58 +0200,Refactored Visualization of Prototypes for extracted Minimax clusterings.
+elki,d14f4327f,Alexander Koos,2014-11-27 23:35:51 +0000,BA-Thesis: refactored model-hierarchy
+elki,d40d76aba,Erich Schubert,2012-01-11 14:57:59 +0000,Refactor K-means to support additional initializations. TODO: kmeans++
+elki,da78d9175,Erich Schubert,2013-05-21 11:03:12 +0000,Refactoring of hierarchical clustering: share cluster extraction across naive and SLINK algorithms.
+elki,ded405452,Erich Schubert,2013-03-14 15:16:41 +0000,"Refactoring of geodetics code, to allow different earth models such as WGS84 ""everywhere""."
+elki,e54bcc232,Erich Schubert,2014-06-30 17:06:05 +0000,Cleanup and refactor classification code.
+elki,eb1320292,Erich Schubert,2009-01-09 13:44:35 +0000,"Code refactoring, to allow code reuse in other SNN functions"
+elki,ebc956b05,Erich Schubert,2019-09-30 03:42:17 +0200,"BIG: QueryBuilder, refactoring, to later allow auto-indexing."
+elki,efc3f5400,Erich Schubert,2020-01-06 17:16:28 +0100,Refactoring and enhancements of k-medoids clustering.
+elki,efc6a52d2,Erich Schubert,2018-10-17 23:21:43 +0200,Big refactoring of k-means variants to use inner Instance classes.
+elki,f055061aa,Erich Schubert,2013-03-13 11:54:59 +0000,Refactor R-Tree: move tree settings into a separate tree settings class (not yet subclassed for RdkNN)
+elki,f16aa79ee,Elke Achtert,2010-04-08 08:51:09 +0000,Refactoring SubspaceModel
+elki,f280e9dc4,Erich Schubert,2009-03-17 16:40:12 +0000,"Refactor ROC AUC code, removing duplicated code."
+elki,f8d74d789,Erich Schubert,2012-06-20 08:46:49 +0000,Refactoring of tests.
+Foundry,7970f87,jbasilico,2015-12-06 15:10:34 -0800,Refactored some of the method names.
+grobid,13060391,Luca Foppiano,2016-08-11 15:23:10 +0200,"Refactor segmentation model, separated the feature extraction from the main method block, added new unit tests."
+grobid,1a909ebc,Luca Foppiano,2017-11-17 11:52:30 +0100,refactoring to improve the efficiency when metrics are computed
+grobid,94fd19f6,Vyacheslav Zholudev,2014-04-01 14:05:22 +0200,refactoring to make model stateless
+grobid,a26689e4,Luca Foppiano,2016-08-19 14:07:21 +0200,Refactor GrobidModel to allow dynamic inheritance
+grobid,bbe1fbfe,Luca Foppiano,2016-11-25 18:27:42 +0100,"Refactor TaggingLabels to make it extensible, removed Enum :) - issue #133"
+grobid,fce992c5,Vyacheslav Zholudev,2017-07-19 17:01:40 +0200,refactoring grobid finder switching to java 8
+htm.java,a35d7414,solovyevk,2014-12-19 23:16:27 -0500,SparseMatrix/SP initMatrices cleanup/refactoring
+jenetics,36d052a0f,Franz Wilhelmstötter,2016-01-20 21:52:19 +0100,#79: Refactoring out common code.
+jenetics,441d1a474,Franz Wilhelmstötter,2019-02-04 22:18:35 +0100,#316: Refactoring of 'TreeRewriter' hierarchy.
+jenetics,6311b9174,Franz Wilhelmstötter,2014-04-21 00:00:40 +0200,Array classes refactorings.
+jenetics,6b479e965,Franz Wilhelmstötter,2019-03-11 22:42:38 +0100,#442: Refactoring to generic 'TreePattern<V>' class.
+jenetics,70806d5d7,Franz Wilhelmstötter,2013-03-23 00:17:13 +0100,Refactor number gene generation.
+jenetics,988ce896c,Franz Wilhelmstötter,2010-02-22 15:07:50 +0000,Adding additional Accumulators.accumulate() methods. Refactor NumberStatistics to use the new accumulators.
+knime-core,003f732e8c,Dominik Morent,2011-04-05 13:48:36 +0000,fixed the general regression predictor. failing test is running again. some PmmlContentHandler refactoring (addPMMLModelContent)
+knime-core,008fd02ee3,Adrian Nembach,2017-04-10 15:29:10 +0200,AP-7169: Refactor model classes
+knime-core,1c71ec591a,Adrian Nembach,2017-10-24 11:35:22 +0200,AP-7917: Refactor GBT PMML Predictor node to accept classification model
+knime-core,47e6031812,Bernd Wiswedel,2013-09-29 23:19:40 +0000,refactoring some file store code without changing any functionality. Will continue with FileStorePortObject later... (currently it says in the header that the class is not supported by the core). Checking it in as we will do some class name refactoring tomorrow (working on the subnode)
+knime-core,679932de3b,Tobias Kötter,2015-07-27 16:20:48 +0000,Classes refactored and exported to allow their usage in the Spark Java Snippet nodes
+knime-core,a2f1cb5cd9,Thomas Gabriel,2009-01-22 16:32:48 +0000,"fix: Fuzzy Rule Predictor generates incomplete spec (during configure) when class probabilities are appended, but domain does not contain possible values; refactored column spec handling fix: if highest prediction is zero, return missing class label better error message when rule model is empty (empty model can be applied, however)"
+knime-core,ab9c77b0f8,Adrian Nembach,2018-03-21 10:19:35 +0100,AP-8977: Refactor LogRegPredictor to avoid second pass over row
+knime-core,bae9a6fed6,Fabian Dill,2009-04-03 14:14:07 +0000,bugfixes 1329 and 1736. refactored ScatterPlotter to override getMappedXValue and getMappedYValue ion order to ensure that all deriving classes use the same mapping (taking the dot size into account)
+liblevenshtein-java,60813c4,Dylon Edwards,2016-05-05 19:41:03 -0700,"Refactors code structure. 1. Drops ""dylon"" from package names. 2. Renames ""com.github.liblevenshtein.levenshtein.distance"" to ""com.github.liblevenshtein.distance"" 3. Renames ""com.github.liblevenshtein.levenshtein"" to ""com.github.liblevenshtein.transducer"" 4. Moves ""com.github.liblevenshtein.levenshtein.LibLevenshteinProtos"" to ""com.github.liblevenshtein.proto.LibLevenshteinProtos"""
+liblevenshtein-java,a5cc961,Dylon Edwards,2014-04-05 22:26:55 -0700,"Refactors the SortedDawg to accept terms post-construction, if they are lexicographically, monotonically non-decreasing and none are lexicographically less than the previously-added term"
+mahout,0308bb821,Jeff Eastman,2010-01-18 03:17:10 +0000,MAHOUT-251: Generalized and refactored Dirichlet models and model distributions to remove 2-d and dense vector assumptions by introducing a new abstract VectorModelDistribution to provide a modelProtootype and size to the distributions for creating prior models of arbitrary vector size and flavor.
+mahout,03424784c,Jeff Eastman,2010-08-18 21:47:30 +0000,MAHOUT-479: Refactored Model and Cluster hierarchies to include DistanceMeasure in cluster state. All unit tests run
+mahout,0dc7b5cde,frankscholten,2014-03-05 21:51:32 +0000,Refactoring. Moved Hadoop related code out of CanopyClusterer.
+mahout,2951ca4f7,Jeff Eastman,2010-04-30 20:16:56 +0000,"MAHOUT-236: - moved default file directory definitions to Cluster from ClusterBase - refactored CanopyClusteringJob and ClusterDriver into CanopyDriver & removed both - added runClustering option to CanopyDriver.runJob - refactored DirichletJob into DirichletDriver - added runClustering option to DirichletDriver.runJob - added emitMostLikely and threshold options to DirichletDriver.runJob - implemented emitMostLikelyCluster and emitAllClusters (above threshold) - refactored FuzzyKMeansJob into FuzzyKMeanstDriver - added runClustering option to FuzzyKMeanstDriver.runJob - added emitMostLikely and threshold options to FuzzyKMeanstDriver.runJob - implemented emitMostLikelyCluster and emitAllClusters (above threshold) - enhanced TestClusterDumper to utilize term dictionary and enhanced printouts - updated other unit tests, all of which run"
+mahout,2ca68e8b9,Jeff Eastman,2010-09-12 18:58:52 +0000,Refactored WeightedVectorWritable to extend VectorWritable and updated relevant code. All tests run
+mahout,3c9538a43,Jeff Eastman,2010-09-29 16:27:04 +0000,MAHOUT-513 - Created interface GaussianAccumulator and two concrete implementations:   - RunningSumsGaussianAccumulator uses running sums approach   - OnlineGaussianAccumulator uses Knuth (Welford) approach - Added unit test thereof which produces significant std deviations and drastically-odd   variances. I'm committing this so it can get more eyeballs. It is not used anywhere yet. - Refactored CDbwClusterEvaluator to use RunningSumsGaussianAccumulator and   existing tests continue to run - Cleaned up logging in various clustering algorithms to increase use of debug vs. info   to reduce log clutter All tests run.
+mahout,3eba6f264,Jeff Eastman,2012-03-08 22:27:28 +0000,MAHOUT-933: - refactored ClusteringPolicies into hierarchy under new AbstractClusteringPolicy - added close() to ClusteringPolicy to allow policy-specific actions needed to compute convergence - removed ClusteringPolicy from ClusterIterator constructor as ClusterClassifier already has one - added convergence computations for kmeans and fuzzyk - added final clustersOut renaming to add -final suffix - updated Display examples and unit tests to reflect above - all tests run
+mahout,4432e3194,Jeff Eastman,2011-12-22 20:43:26 +0000,MAHOUT-846: Minor refactoring to eliminate unnecessary vector.times(SQRT2PI)
+mahout,49ad8cb45,Trevor a.k.a @rawkintrevo,2018-06-29 11:10:13 -0500,MAHOUT-2033 Fixed Map-Reduce Refactor
+mahout,76e80dceb,Jeff Eastman,2012-02-22 22:45:59 +0000,MAHOUT-933: Refactored actual classification out of ClusterClassifier and into ClusteringPolicies. This allows classifier to be completely generic as to the algorithm and gives policies correct use of e.g. fuzzyK 'm' Introduced Canopy and MeanShift clustering policies for classification though not used by cluster iterator Modified serialization of ClusterClassifiers to include ClusteringPolicy Added ClusterClassifier serialization methods to exploded sequenceFile representation needed for MR Updated Display examples and unit tests. All run
+mahout,a14c9cb09,Jeff Eastman,2010-07-15 17:53:51 +0000,MAHOUT-294: - Refactored clustering jobs to subclass AbstractJob. - Added fuzzy k-means example to synthetic control examples - Added cluster dump to synthetic control examples - Fixed _log file access bug in ClusterDumper when run on Hadoop - all synthetic control examples run on Hadoop cluster - Fuzzy k-Means produces numerically odd-looking clusters - added unit tests of run() command line option for each clustering algorithm - all unit tests run
+mahout,a73bdd42a,Isabel Drost,2009-12-10 09:34:48 +0000,MAHOUT-11 - refactors lots of the clustering code to get rid of its static fields. Thanks to Drew Farris for fixing most of the code.
+mahout,b3ba49c38,Jeff Eastman,2010-07-24 03:39:30 +0000,"MAHOUT-294: - modified most DisplayClustering subclasses to use the new sequential method on drivers. (Not Dirichlet yet) - using file system to transmit Clusters required a rework since they were not serializing needed state - refactored Canopy, Cluster, SoftCluster and MeanShiftCanopy significantly, abstracting shared behavior to new AbstractCluster class. - deleted ClusterBase after moving static method to AbstractCluster - added ClusterObservations to replace KMeansInfo and FuzzyKMeansInfo - changed all cluster identifier formatting to include type indication - upshot of new clusters is improved posterior statistics for all with radius() now returning stdDev(), a vector - new radius() used in Display examples to show elliptical clusters - adjusted unit tests and all pass"
+mahout,ba81a9322,pranjan,2012-03-16 17:10:29 +0000,"MAHOUT-981, MAHOUT-983. Refactored K-Means Clustering and Dirichlet Clustering to use ClusterClassificationDriver. Using cluster.getModel().configure() in ClusterClassificationDriver in order to configure DirichletCluster for MahalanobisDistanceMeasure. Added/fixed test cases by: Using separate directories in test cases for supplying initial clusters and to store buildClusters to prevent two cluster-*-final files in the same directory. Writing IntWritable in test cases instead of LongWritable ( As the ClusterClassificationDriver clusters records with IntWritable keys)."
+mahout,ce91768b5,Jeff Eastman,2009-03-16 00:17:07 +0000,- Committing Dirichlet Process Clustering (MAHOUT-30). Some minor refactoring from the latest patch (MAHOUT-30f) to move models and distributions from test tree into core so that examples can see them. All tests run and the pom packages.
+mahout,db6d40145,Sean R. Owen,2009-12-04 19:15:31 +0000,Refactored argument and conf handling in CF Hadoop jobs.
+mahout,e3fb0c4f3,Sebastian Schelter,2011-07-04 06:49:17 +0000,MAHOUT-746 Refactoring of the parallel Naive Bayes implementation in org.apache.mahout.classifier.naivebayes
+mahout,fd355fe7b,pranjan,2012-03-31 17:30:10 +0000,MAHOUT-984. Refactored clustering out of FuzzyKMeansDriver using ClusterClassificationDriver. All junit tests pass.
+mahout,fed7d6133,Jeff Eastman,2010-08-19 17:32:49 +0000,"MAHOUT-479: This commit refactors Cluster to inherit from Model<VectorWritable> instead of AbstractCluster which now inherits just Cluster. The existing Dirichlet models also now inherit from Cluster, simplifying the use of generics and cleaning up a lot of the code."
+Mallet,1514ca8,clairew,2017-10-02 11:41:46 -0400,Initial commit for dependency refactor
+Mallet,5a8c757,Andrew McCallum,2008-03-22 07:58:04 -0400,Refactor LDAHyper with Topication class.
+Mallet,b6581fb,Gregory Druck,2011-07-31 15:01:58 -0400,Refactoring PR.
+Mallet,e401d6f,clairew,2017-10-02 11:52:44 -0400,Added Types test import dependency refactor
+Mallet,f8b5b9c,clairew,2017-10-30 15:19:13 -0400,Pipe test refactor
+moa,08495c4,Jesse Read,2016-02-05 15:59:11 +0100,code revision and refactor
+moa,a266697,Albert Bifet,2018-12-09 10:49:29 +0100,Merge pull request #154 from henrygouk/adagrad-refactor
+modernmt,01720294,Davide Caroselli,2017-04-12 20:24:49 +0200,StaticLM pruning + Trie model. Code refactoring and bugfixing.
+modernmt,2452c3fd,Davide Caroselli,2019-05-14 15:55:37 +0200,Tokenization refactoring complete
+modernmt,4095262c,Andrea Rossi,2017-03-29 14:59:26 +0200,started kafka topics refactoring
+modernmt,4bd91561,Davide Caroselli,2018-06-06 14:34:15 +0200,Code refactoring
+modernmt,6086c283,Davide Caroselli,2017-08-06 19:12:37 +0200,Refactoring of both LuceneTranslationMemory and LuceneAnalyzer for improved testing capabilities
+modernmt,6095bbbd,Davide Caroselli,2017-10-30 13:57:28 +0100,Refactoring of training options
+modernmt,66cf5732,Davide Caroselli,2016-02-24 12:02:54 +0100,Refactoring of model classes
+modernmt,67bbf001,Andrea Rossi,2017-04-11 17:14:55 +0200,python refactoring for java processes
+modernmt,81450de9,Davide Caroselli,2018-04-12 17:35:47 +0200,NeuralDecoder setup refactoring
+modernmt,8c8613cb,Davide Caroselli,2017-04-11 11:06:54 +0200,Refactoring in ClusterNodeMain
+modernmt,ac14f6a0,Davide Caroselli,2017-09-12 16:39:52 +0200,Training optimizer options refactoring
+modernmt,aef7aa51,Davide Caroselli,2017-08-01 14:00:28 +0200,Refactoring of Pre/Post-processor completed: improved multi-thread efficiency
+modernmt,c70cd779,Davide Caroselli,2019-05-13 15:38:22 +0200,Small code refactoring in python Decoder
+modernmt,f91212f2,Davide Caroselli,2016-12-15 12:01:07 +0100,ModernMT cluster node start refactoring
+Mutters,3e8615d,rabidgremlin,2016-07-25 09:48:12 +1200,Refactored into packages.
+Mutters,e0d3227,rabidgremlin,2016-10-07 10:54:28 +1300,Code clean up and ink function refactor
+neo4j-nlp,16a7c62,Alessandro Negro,2018-10-26 15:57:34 +0200,TextRank refactoring
+neo4j-nlp,4ced422,Alessandro Negro,2018-05-04 12:55:22 +0200,refactoring on page rank
+neuronix,4bfd7f2,Rainbow-MRX,2018-03-06 20:14:18 +0200,refactor some code
+smile,0da619c4,Haifeng Li,2019-11-01 12:37:53 -0400,refactor hierarchical clustering
+smile,18d566bc,Haifeng Li,2019-10-06 23:57:27 -0400,refactor decision tree
+smile,19fcce1c,gael beck,2018-02-26 20:20:55 +0100,remove useless trait and refactor distances
+smile,3a91d594,Haifeng Li,2019-11-22 10:48:05 -0500,refactor bigram/ngram collocation and keyword extraction
+smile,b8f91800,Haifeng Li,2016-02-18 23:34:44 -0500,refactor readTable and readCsv
+smile,bbb58e57,Haifeng Li,2019-10-09 23:38:27 -0400,refactor naive bayes
+smile,d3e4afc4,Haifeng Li,2016-01-06 00:19:56 -0500,refactor cart and related algorithms
+smile,d9857825,Haifeng Li,2016-02-18 23:09:59 -0500,refactor scala plot api
+smile,e0b1093b,Haifeng Li,2019-11-03 23:12:12 -0500,refactor partition clustering
+smile,e8590f83,Haifeng Li,2019-09-17 12:36:42 -0400,refactor GBT for classification
+smile,f44655f6,Haifeng Li,2019-10-10 11:45:18 -0400,refactor rbf network for classification
+submarine,96c8fb3,Xun Liu,2019-09-12 15:01:34 +0800,[SUBMARINE-182] Refactoring QueryResult class (#70)
+tablesaw,1d4bff74,Larry White,2018-08-22 10:16:42 -0400,fix bug in performance test and slight refactoring in csv read
+tablesaw,39b74735,Larry White,2018-07-31 15:47:11 -0400,refactoring of column type specific parsing into column types
+tablesaw,46def085,Larry White,2018-08-02 09:13:18 -0400,"Refactored table copying, and duplicate dropping by moving work to the column type"
+tablesaw,542db531,Agnieszka Paszek,2017-12-07 06:07:10 +0100,Refactor (#210)
+Trainable_Segmentation,752235e,Ignacio Arganda Carreras,2010-12-06 12:10:25 -0500,Balanced Random Forest: refactored GiniFunction in order to increase the spped. The inner class AttributeClassPair is now extern and the comparator is static.
+vespa,02a609771b,Tor Egge,2019-05-24 15:42:15 +0200,Refactor tagging of TermFieldMatchData regarding which features are needed by feature executors.
+vespa,08cb105294,gjoranv,2017-07-19 12:12:21 +0200,Refactor LeafNodeVector
+vespa,130cdfd5cc,Tor Egge,2016-11-09 15:24:47 +0000,Refactor buffertype and datastore to better handle extra data at start of each buffer.  Simplify dense tensor store. Change enum store base to calculate buffer size in proper virtual method in buffertype subclass.
+vespa,15c2736314,Jon Bratseth,2019-10-17 11:13:51 +0200,Refactor: Skew computation independent of node prioritization
+vespa,1a5a822bcb,toby,2017-05-22 13:41:53 +0200,Replace NodeList with the refactored NodeAllocation class
+vespa,237865038f,Henning Baldersheim,2017-08-24 14:58:49 +0200,"- Use C++11 for loops. - Detangle some includes and include what you need. - Refactor to subclass to avoid code duplication. - Add config for compression too. - V1 up to 142, V2 above."
+vespa,3a4ab17811,Geir Storli,2016-10-03 15:04:19 +0200,Refactor dense tensor product into generic function for applying two dense tensors together.
+vespa,4ab17a2abf,Ilpo Ruotsalainen,2018-11-30 11:27:56 +0100,Refactor to extract a method.
+vespa,54deccf618,Geir Storli,2016-10-04 15:53:50 +0200,Refactor dimension sum into generic reduce function for dense tensors.
+vespa,6027e9d30a,Jon Bratseth,2016-09-02 16:24:09 +0200,Refactor away from test implementation in superclass antipattern
+vespa,66058ea16d,Jon Bratseth,2018-09-17 13:41:51 +0200,Refactor: Don't reparse
+vespa,66b8b33287,Jon Bratseth,2018-08-10 16:08:54 +0200,Refactor and remove duplication
+vespa,68be372830,toby,2017-09-21 13:14:59 +0200,Refactor cost APIs and modelling - this is a breaking change
+vespa,840ddab2e6,Jon Bratseth,2019-07-04 08:26:31 -0700,Refactor out solving without soft constraints
+vespa,89d9cf538f,Bjørn Christian Seime,2017-06-19 12:49:17 +0200,Refactor logic for generating config into separate method
+vespa,95f131db13,Jon Bratseth,2016-10-05 14:23:13 +0200,Refactoring only: Move direct dispatch decision to SearchCluster
+vespa,b1f46fcd04,Lester Solbakken,2018-02-05 16:04:42 +0100,Refactor TensorFlow import and add dimension renaming.
+vespa,c148daa705,Jon Bratseth,2016-10-04 11:29:36 +0200,Refactor test to avoid chaos and suffering
+vespa,cf687abd43,Tor Brede Vekterli,2016-10-05 11:30:50 +0200,Rewrite and refactor core cluster controller state generation logic
+vespa,cfb1ae9d80,Ola Aunrønning,2019-10-04 13:16:57 +0200,Refactoring
+vespa,d3d97e192d,Ilpo Ruotsalainen,2018-11-29 16:09:40 +0100,Refactor for easier testing.
+vespa,db83981097,Jon Marius Venstad,2020-01-25 21:05:30 +0100,Rename and refactor away code duplication
+vespa,dc26f9d29a,Henning Baldersheim,2019-08-15 07:17:57 +0000,"Refactor, no semantic changes."
+vespa,dc9e53f291,Arne Juul,2019-11-26 08:45:40 +0000,refactor and check with non-null tensor
+vespa,ef8e4859e8,Jon Bratseth,2018-09-16 18:40:46 +0200,Refactor: Initialize all macros state at once
+vespa,fc1fa20358,Tor Egge,2018-08-29 10:43:29 +0200,Refactor replacement of grouping expression attribute nodes.
+weka-trunk,887ee521e,mhall,2007-02-27 03:42:49 +0000,Refactored hashKey out of DecisionTable into its own class. Reduces the number of dependencies for other classes that make use of hashKey (such as SimpleKMeans).
+weka-trunk,ebf175aef,mhall,2007-02-27 03:43:36 +0000,Changes to reflect the refactoring of hashKey out of DecisionTable

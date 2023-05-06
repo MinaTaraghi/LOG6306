@@ -1,0 +1,52 @@
+,Unnamed: 0,Subject,CommitId,Author,Date,Log message,link,#affected_files
+2,2,stanfordnlp/CoreNLP,01ae51c41,Christopher Manning,2017-05-28 17:42:21 -0700,"Print out sections and some refactoring. Print the sections, but maybe this should be changed a bit so the sentences are a simple list, not a list of maps. Do a little refactoring out of repeated code blocks.",https://github.com/stanfordnlp/CoreNLP/commit/01ae51c41,1
+3,3,stanfordnlp/CoreNLP,13327445f,Jon Gauthier,2014-08-27 12:07:13 -0700,Refactor AnCoraProcessor to use MulticoreWrapper,https://github.com/stanfordnlp/CoreNLP/commit/13327445f,1
+5,5,stanfordnlp/CoreNLP,1d5474b72,J38,2019-09-14 15:09:07 -0700,"add number range handling, refactor some",https://github.com/stanfordnlp/CoreNLP/commit/1d5474b72,1
+7,7,stanfordnlp/CoreNLP,29e8c720f,Sebastian Schuster,2015-03-20 21:36:06 -0700,Refactored UniversalEnglishGrammaticalStructureTest,https://github.com/stanfordnlp/CoreNLP/commit/29e8c720f,1
+10,10,stanfordnlp/CoreNLP,45c948b54,John Bauer,2019-11-27 18:51:01 -0800,Simplify and use the refactored text split,https://github.com/stanfordnlp/CoreNLP/commit/45c948b54,1
+11,11,stanfordnlp/CoreNLP,4816ccd03,Jason Bolton,2018-07-15 17:25:11 -0700,refactor test,https://github.com/stanfordnlp/CoreNLP/commit/4816ccd03,1
+13,13,stanfordnlp/CoreNLP,664a179e8,John Bauer,2014-10-15 18:37:51 -0700,Begin refactoring training method in ShiftReduceParser,https://github.com/stanfordnlp/CoreNLP/commit/664a179e8,1
+14,14,stanfordnlp/CoreNLP,6cb32ee6a,J38,2019-09-04 22:36:48 -0700,"begin refactor process, remove german and spanish from old test",https://github.com/stanfordnlp/CoreNLP/commit/6cb32ee6a,1
+16,16,stanfordnlp/CoreNLP,75285cd46,J38,2019-09-04 22:36:47 -0700,refactored german ner benchmark,https://github.com/stanfordnlp/CoreNLP/commit/75285cd46,1
+17,17,stanfordnlp/CoreNLP,770fac204,John Bauer,2014-06-10 18:51:22 -0700,Code refactoring,https://github.com/stanfordnlp/CoreNLP/commit/770fac204,1
+20,20,stanfordnlp/CoreNLP,95e5211f2,J38,2019-10-17 15:40:33 -0700,refactor to have NERCombinerAnnotator directly alter tokenization to an NER-specific tokenization,https://github.com/stanfordnlp/CoreNLP/commit/95e5211f2,1
+24,24,stanfordnlp/CoreNLP,a1f844ded,John Bauer,2019-09-09 20:21:30 -0700,"Update a comment, minor rearrangement to look like the parent class (need to refactor)",https://github.com/stanfordnlp/CoreNLP/commit/a1f844ded,1
+28,28,stanfordnlp/CoreNLP,b3b0effcd,John Bauer,2014-08-11 16:42:17 -0700,Make the code easy to refactor...,https://github.com/stanfordnlp/CoreNLP/commit/b3b0effcd,1
+31,31,stanfordnlp/CoreNLP,cd828aee8,John Bauer,2014-06-10 18:52:46 -0700,Begin refactoring the training program,https://github.com/stanfordnlp/CoreNLP/commit/cd828aee8,1
+38,38,datacleaner/DataCleaner,174603960,hdrexler,2015-09-02 09:01:58 +0200,Minor refactoring,https://github.com/datacleaner/DataCleaner/commit/174603960,1
+40,40,datacleaner/DataCleaner,34ee02495,hdrexler,2015-09-02 17:01:47 +0200,Refactored initialization of String list,https://github.com/datacleaner/DataCleaner/commit/34ee02495,1
+43,43,datacleaner/DataCleaner,3f403a73f,Kasper Sørensen,2015-06-16 14:56:01 +0200,"Made ""create table"" functionality not apply to CSV datastores. Refactored SchemaMouseListener to avoid too long method.",https://github.com/datacleaner/DataCleaner/commit/3f403a73f,1
+44,44,datacleaner/DataCleaner,525988f21,Reinier de Jong,2015-08-11 12:57:15 +0200,"Refactored the getSchema, getTable and getColumn methods into one getSchemas method which now returns the complete schema, table and column hierarchy as one json",https://github.com/datacleaner/DataCleaner/commit/525988f21,1
+49,49,datacleaner/DataCleaner,7387baf67,tomaszguzialek,2015-05-11 11:09:15 +0200,Refactoring the test to remove the test file even if the test fails (tearDown method).,https://github.com/datacleaner/DataCleaner/commit/7387baf67,1
+53,53,datacleaner/DataCleaner,b907e804a,Kasper Sørensen,2015-05-04 09:17:56 +0200,Minor refactor to have removeUnnecesaryEdges incapsulate the for-loop,https://github.com/datacleaner/DataCleaner/commit/b907e804a,1
+56,56,deeplearning4j/deeplearning4j,3c0c59ab88,shugeo,2019-10-09 22:09:33 +0300,Refactored fake_quant_with_min_max_vars op.,https://github.com/deeplearning4j/deeplearning4j/commit/3c0c59ab88,1
+61,61,deeplearning4j/deeplearning4j,aa4af2c36d,Robert Altena,2019-07-29 21:20:16 +0900,refactor duplicate code from pad methods. (#86),https://github.com/deeplearning4j/deeplearning4j/commit/aa4af2c36d,1
+65,65,deeplearning4j/deeplearning4j,f3e42173ef,shugeo,2019-10-02 16:51:09 +0300,Refactored buffer copying to avoid wrong usage of buffers.,https://github.com/deeplearning4j/deeplearning4j/commit/f3e42173ef,1
+73,73,elastic/elasticsearch,28d6b505ed9,Dimitrios Athanasiou,2017-03-24 10:51:25 +0000,[ML] Minor refactoring to improve code readability,https://github.com/elastic/elasticsearch/commit/28d6b505ed9,1
+74,74,elastic/elasticsearch,3a0d1841d9d,javanna,2015-10-05 14:50:15 +0200,Query refactoring: simplify IndexQueryParserService parse methods and prepare the field for #13859,https://github.com/elastic/elasticsearch/commit/3a0d1841d9d,1
+82,82,elastic/elasticsearch,97703bf0da3,Dimitris Athanasiou,2018-03-21 14:54:55 +0000,[ML] Refactor method to process model size stats (elastic/x-pack-elasticsearch#4175),https://github.com/elastic/elasticsearch/commit/97703bf0da3,1
+87,87,elastic/elasticsearch,c567ec4a0fe,Albert Zaharovits,2018-08-26 14:09:23 +0300,Refactor CachingUsernamePassword realm (#32646),https://github.com/elastic/elasticsearch/commit/c567ec4a0fe,1
+110,110,elki-project/elki,84eff0d84,Erich Schubert,2013-07-30 09:02:19 +0000,"Large refactoring of distribution estimators: moved to own package, instead of inner classes. Makes the available algorithms more visible.",https://github.com/elki-project/elki/commit/84eff0d84,1
+111,111,elki-project/elki,875ad4c47,Erich Schubert,2013-10-30 17:21:58 +0000,Refactor & cleanup.,https://github.com/elki-project/elki/commit/875ad4c47,1
+117,117,elki-project/elki,b3a1eb3c2,Elke Achtert,2006-09-06 08:15:00 +0000,refactoring Hough algorithm,https://github.com/elki-project/elki/commit/b3a1eb3c2,1
+129,129,elki-project/elki,e54bcc232,Erich Schubert,2014-06-30 17:06:05 +0000,Cleanup and refactor classification code.,https://github.com/elki-project/elki/commit/e54bcc232,1
+130,130,elki-project/elki,eb1320292,Erich Schubert,2009-01-09 13:44:35 +0000,"Code refactoring, to allow code reuse in other SNN functions",https://github.com/elki-project/elki/commit/eb1320292,1
+154,154,knime/knime-core,1c71ec591a,Adrian Nembach,2017-10-24 11:35:22 +0200,AP-7917: Refactor GBT PMML Predictor node to accept classification model,https://github.com/knime/knime-core/commit/1c71ec591a,1
+158,158,knime/knime-core,ab9c77b0f8,Adrian Nembach,2018-03-21 10:19:35 +0100,AP-8977: Refactor LogRegPredictor to avoid second pass over row,https://github.com/knime/knime-core/commit/ab9c77b0f8,1
+161,161,universal-automata/liblevenshtein-java,a5cc961,Dylon Edwards,2014-04-05 22:26:55 -0700,"Refactors the SortedDawg to accept terms post-construction, if they are lexicographically, monotonically non-decreasing and none are lexicographically less than the previously-added term",https://github.com/universal-automata/liblevenshtein-java/commit/a5cc961,1
+169,169,apache/mahout,4432e3194,Jeff Eastman,2011-12-22 20:43:26 +0000,MAHOUT-846: Minor refactoring to eliminate unnecessary vector.times(SQRT2PI),https://github.com/apache/mahout/commit/4432e3194,1
+181,181,mimno/Mallet,1514ca8,clairew,2017-10-02 11:41:46 -0400,Initial commit for dependency refactor,https://github.com/mimno/Mallet/commit/1514ca8,1
+182,182,mimno/Mallet,5a8c757,Andrew McCallum,2008-03-22 07:58:04 -0400,Refactor LDAHyper with Topication class.,https://github.com/mimno/Mallet/commit/5a8c757,1
+190,190,modernmt/modernmt,4095262c,Andrea Rossi,2017-03-29 14:59:26 +0200,started kafka topics refactoring,https://github.com/modernmt/modernmt/commit/4095262c,1
+191,191,modernmt/modernmt,4bd91561,Davide Caroselli,2018-06-06 14:34:15 +0200,Code refactoring,https://github.com/modernmt/modernmt/commit/4bd91561,1
+198,198,modernmt/modernmt,ac14f6a0,Davide Caroselli,2017-09-12 16:39:52 +0200,Training optimizer options refactoring,https://github.com/modernmt/modernmt/commit/ac14f6a0,1
+200,200,modernmt/modernmt,c70cd779,Davide Caroselli,2019-05-13 15:38:22 +0200,Small code refactoring in python Decoder,https://github.com/modernmt/modernmt/commit/c70cd779,1
+223,223,fiji/Trainable_Segmentation,752235e,Ignacio Arganda Carreras,2010-12-06 12:10:25 -0500,Balanced Random Forest: refactored GiniFunction in order to increase the spped. The inner class AttributeClassPair is now extern and the comparator is static.,https://github.com/fiji/Trainable_Segmentation/commit/752235e,1
+225,225,vespa-engine/vespa,08cb105294,gjoranv,2017-07-19 12:12:21 +0200,Refactor LeafNodeVector,https://github.com/vespa-engine/vespa/commit/08cb105294,1
+228,228,vespa-engine/vespa,1a5a822bcb,toby,2017-05-22 13:41:53 +0200,Replace NodeList with the refactored NodeAllocation class,https://github.com/vespa-engine/vespa/commit/1a5a822bcb,1
+231,231,vespa-engine/vespa,4ab17a2abf,Ilpo Ruotsalainen,2018-11-30 11:27:56 +0100,Refactor to extract a method.,https://github.com/vespa-engine/vespa/commit/4ab17a2abf,1
+237,237,vespa-engine/vespa,840ddab2e6,Jon Bratseth,2019-07-04 08:26:31 -0700,Refactor out solving without soft constraints,https://github.com/vespa-engine/vespa/commit/840ddab2e6,1
+238,238,vespa-engine/vespa,89d9cf538f,Bjørn Christian Seime,2017-06-19 12:49:17 +0200,Refactor logic for generating config into separate method,https://github.com/vespa-engine/vespa/commit/89d9cf538f,1
+243,243,vespa-engine/vespa,cfb1ae9d80,Ola Aunrønning,2019-10-04 13:16:57 +0200,Refactoring,https://github.com/vespa-engine/vespa/commit/cfb1ae9d80,1
+247,247,vespa-engine/vespa,dc9e53f291,Arne Juul,2019-11-26 08:45:40 +0000,refactor and check with non-null tensor,https://github.com/vespa-engine/vespa/commit/dc9e53f291,1
+251,251,Waikato/weka-trunk,ebf175aef,mhall,2007-02-27 03:43:36 +0000,Changes to reflect the refactoring of hashKey out of DecisionTable,https://github.com/Waikato/weka-trunk/commit/ebf175aef,1
