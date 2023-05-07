@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
 
     headers = {
-        'Authorization': 'token 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'
+        'Authorization': 'token Your Token Here'
     }
     # checking the GitHub API rate limit
     response = requests.get('https://api.github.com/rate_limit', headers=headers)
